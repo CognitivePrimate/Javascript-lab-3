@@ -62,12 +62,23 @@ function findLowestScore(array){
     });  return lowestScore;
 }
 
+// done with a for loop 
+// function findAverageScore(array){
+//     let sum = 0;
+//     for (i = 0; i < array.length; i++){
+//         sum += array[i].score;
+//         avg = sum / array.length;
+//     }; return avg;
+// }
+
+// done with a for of, as specified
 function findAverageScore(array){
     let sum = 0;
-    for (i = 0; i < array.length; i++){
-        sum += array[i].score;
+    for (object of array){
+        sum += object.score;
         avg = sum / array.length;
-    }; return avg;
+    };
+    return avg;
 }
 
 function filterPassing(array){

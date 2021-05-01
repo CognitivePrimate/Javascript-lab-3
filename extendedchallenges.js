@@ -17,5 +17,5 @@ function countElements(array){
 
 
 
-// console.log(createRange(5, 13));
-console.log(countElements(["a", "b", "c", "d", "c", "a"]));
+// console.log(createRange(10, 13));
+// console.log(countElements(["a", "b", "c", "d", "c", "a"]));
